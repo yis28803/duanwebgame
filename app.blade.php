@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous" />
-    <link href="css/app.css') }}" rel="stylesheet" />
+    <link href="css/app.css')" rel="stylesheet" />
     {{-- <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css" /> --}}
     <link rel="stylesheet" href="{{ asset('css/fontawesome/css/all.min.css') }}" />
     {{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
@@ -658,37 +658,37 @@
         <br>
 
         <div class="container">
-            <h4>Từ khóa nổi bật</h4>
+            <h4>Giá phù hợp</h4>
             <div class="row">
                 <div class="col">
-                    <button class="btn text-light enlarge-btn" type="submit">
-                        Làm việc
+                    <button class="btn text-dark enlarge-btn bg-light" type="submit">
+                       <h6>20.000đ</h6> 
                     </button>
                 </div>
                 <div class="col">
-                    <button class="btn text-light enlarge-btn" type="submit">
-                        Làm việc
-                    </button>
+                    <button class="btn text-dark enlarge-btn bg-light" type="submit">
+                        <h6>50.000đ</h6> 
+                     </button>
                 </div>
                 <div class="col">
-                    <button class="btn text-light enlarge-btn" type="submit">
-                        Làm việc
-                    </button>
+                    <button class="btn text-dark enlarge-btn bg-light" type="submit">
+                        <h6>100.000đ</h6> 
+                     </button>
                 </div>
                 <div class="col">
-                    <button class="btn text-light enlarge-btn" type="submit">
-                        Làm việc
-                    </button>
+                    <button class="btn text-dark enlarge-btn bg-light" type="submit">
+                        <h6>200.000đ</h6> 
+                     </button>
                 </div>
                 <div class="col">
-                    <button class="btn text-light enlarge-btn" type="submit">
-                        Làm việc
-                    </button>
+                    <button class="btn text-dark enlarge-btn bg-light" type="submit">
+                        <h6>500.000đ</h6> 
+                     </button>
                 </div>
                 <div class="col">
-                    <button class="btn text-light enlarge-btn" type="submit">
-                        Làm việc
-                    </button>
+                    <button class="btn text-dark enlarge-btn bg-light" type="submit">
+                        <h6>1.000.000đ</h6> 
+                     </button>
                 </div>
             </div>
             <br>
@@ -698,11 +698,10 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h4>Sản phẩm nổi bật</h4>
-                    <p>Danh sách những sản phẩm theo
-                        xu hướng mà có thể bạn sẽ
-                        thích
+                    <h4>Game trên Steam</h4>
+                    <p>Những trò chơi được đánh giá tốt, nội dung hấp dẫn thu hút đang chờ bạn
                     </p>
+
                 </div>
                 <div class="col">
                     <div class="text-end">
@@ -717,57 +716,56 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Random Code Steam.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                           <a href="">Random Code Steam</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
-                        <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
-                        </div>
-                        <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">9.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">20.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-55%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Elden-Ring-82335.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Elden Ring (CD Key Steam)</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">790.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">800.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-1%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/raven-hunter-hood-tower-defense-simulator-44997.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Code Roblox Raven Hunter Hood - Tower Defense Simulator</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">12.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">99.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-88%</font>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/EAgame.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                        <div class="card-title">
+                           <a href="">EA SPORTS™ FIFA 21 Champions Edition</a>
+                        </div>
+                        <div class="card-title">
+                            <h5 style="display: inline">1.750.000đ</h5>
+
                         </div>
                     </div>
                 </div>
@@ -778,57 +776,57 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-GTA-V19-92008.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Tài khoản Grand Theft Auto V: Premium Edition (GTA 5)</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
-                        <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
-                        </div>
-                        <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">250.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">459.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-46%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Random Code Steam Legendary-78055.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Random Code Steam Legendary</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">60.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">150.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-60%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/keygido.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Propnight (CD KEY)</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">119.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">142.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-16%</font>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/doggy-backpack-mining-simulator-2-20121.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                        <div class="card-title">
+                           <a href="">Code Roblox Doggy Backpack - Mining Simulator 2</a>
+                        </div>
+                        <div class="card-title">
+                            <h5 style="display: inline">12.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">99.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-88%</font>
                         </div>
                     </div>
                 </div>
@@ -844,7 +842,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h4>Sản phẩm nổi bật</h4>
+                    <h4>Học tập</h4>
                     <p>Danh sách những sản phẩm theo
                         xu hướng mà có thể bạn sẽ
                         thích
@@ -863,57 +861,57 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Grammarly-Premium-1-Nam-35103.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Tài khoản Grammarly Premium 1 năm</a>
+                        </div>
+                        <div class="card-title">
+                            <h5 style="display: inline">490.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">1.500.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-67%</font>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Lumosity-1-Nam-25729.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                        <div class="card-title">
+                            <a href="">Tài khoản Lumosity 1 năm</a>
+                        </div>
+                        <div class="card-title">
+                            <h5 style="display: inline">299.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">1.100.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-73%</font>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Memrise-1-Nam-98141.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                        <div class="card-title">
+                            <a href="">Tài khoản học ngoại ngữ Memrise 1 năm</a>
                         </div>
                         <div class="card-title">
                             <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">2.300.000đ</h5>
                             <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Lynda (LinkedIn Learning).png" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Tài khoản Lynda Premium vĩnh viễn</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
-                        <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
-                        </div>
-                        <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
-                        <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
-                        </div>
-                        <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">290.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">1.500.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-81%</font>
                         </div>
                     </div>
                 </div>
@@ -924,57 +922,56 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Skillshare premium 2 month-56292.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Tài khoản Skillshare premium 2 tháng</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
-                        <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
-                        </div>
-                        <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">59.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">320.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-82%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Coursera-14882.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Khóa học Coursera</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">150.000đ</h5>
+                            
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Busuu-Premium-Plus-1-Thang-62667.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                           <a href="">Tài khoản học ngoại ngữ Busuu Premium Plus 1 Tháng</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">15.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">200.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-92%</font>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/duolingo.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                        <div class="card-title">
+                           <a href="">Tài khoản học ngoại ngữ Duolingo 1 năm</a>
+                        </div>
+                        <div class="card-title">
+                            <h5 style="display: inline">190.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">300.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-37%</font>
                         </div>
                     </div>
                 </div>
@@ -990,7 +987,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h4>Sản phẩm nổi bật</h4>
+                    <h4>Giải trí</h4>
                     <p>Danh sách những sản phẩm theo
                         xu hướng mà có thể bạn sẽ
                         thích
@@ -1009,57 +1006,57 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-NETFLIX-1-thang-23298.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Tài Khoản Netflix Premium 1 tháng - Xem phim chất lượng 4k và Full HD</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
+                            <h5 style="display: inline">89.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">260.000đ</h5>
                             <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Goi-Gia-Han-Spotify-1-Nam-40567.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Gói gia hạn Spotify Premium 01 năm</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
+                            <h5 style="display: inline">299.000đ</h5>
                             <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-49%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/YOUTUBE NO ADS 6 THANG.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Gia hạn YouTube Premium + YouTube Music (6 tháng)</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">259.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">3.360.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-92%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-YOUTUBE-NO-ADS-1-NAM-53447.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Gia hạn YouTube Premium + YouTube Music (1 Năm)</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">479.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">6.720.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-93%</font>
                         </div>
                     </div>
                 </div>
@@ -1070,57 +1067,57 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-NETFLIX-6-Thang-86374.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Tài khoản Netflix Premium for 1 User (6 Tháng)</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
-                        <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
-                        </div>
-                        <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">509.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">1.560.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-67%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Goi-Nang-Cap-Office-365-1-Nam-84521.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Gói nâng cấp Office 365 1 năm (1TB)</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">249.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">1.299.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-81%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/YOUTUBE NO ADS 1 THANG.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Gia hạn YouTube Premium + YouTube Music (1 Tháng)</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">35.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">280.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-87%</font>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/youtube-pre.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                        <div class="card-title">
+                            <a href="">Gia hạn Youtube Premium (2 Tháng)</a>
+                        </div>
+                        <div class="card-title">
+                            <h5 style="display: inline">75.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">560.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-87%</font>
                         </div>
                     </div>
                 </div>
@@ -1136,7 +1133,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h4>Sản phẩm nổi bật</h4>
+                    <h4>Làm việc</h4>
                     <p>Danh sách những sản phẩm theo
                         xu hướng mà có thể bạn sẽ
                         thích
@@ -1155,57 +1152,59 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: #f2f1f1; border: none;">
+                        <img src="img/Divine-shop-windows-10-pro-55555.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Windows 10 Professional CD Key</a>
+                            <br>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
-                        <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
-                        </div>
-                        <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">290.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">400.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-28%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Canva-1-Nam-44514.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Gói gia hạn Canva 1 năm</a>
+                            <br>
                         </div>
                         <div class="card-title">
                             <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 class="crossed-out" style="display: inline">1.500.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-80%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Doodly-Standard-Vinh-Vien-47767.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Tài khoản Doodly Standard vĩnh viễn</a>              
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">599.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">4.800.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-88%</font>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Malwarebytes-Vinh-Vien-51870.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                        <div class="card-title">
+                            <a href="">Key bản quyền diệt virus Malwarebytes vĩnh viễn</a>
+                        </div>
+                        <div class="card-title">
+                            <h5 style="display: inline">599.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">1.500.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-60%</font>
                         </div>
                     </div>
                 </div>
@@ -1216,57 +1215,57 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Office2021-49955.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Microsoft Office 2021 Professional Plus for Windows</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
-                        <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
-                        </div>
-                        <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">490.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">11.500.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-96%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Microsoft-Office-2019-Professional-Plus-For-Windows-4564925-18347.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Microsoft Office 2019 Professional Plus for Windows</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">490.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">9.500.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-95%</font>
                         </div>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class="card" style="background: rgb(179, 179, 179); border: none;">
-                        <img src="img/game.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Turnitin 6 tháng-31152.png" class="img-fluid rounded" style="height: 130px; width: 310px;">
                         <div class="card-title">
-                            <h5>Nâng cấp tài khoản Zoom</h5>
+                            <a href="">Gói nâng cấp Turnitin (6 Tháng)</a>
                         </div>
                         <div class="card-title">
-                            <h5 style="display: inline">300.000đ</h5>
-                            <h5 class="crossed-out" style="display: inline">590.000đ</h5>
-                            <font style="border: 1px solid red; background-color: red; color: white;">-66%</font>
+                            <h5 style="display: inline">629.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">839.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-25%</font>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background: none; border: none;">
+                        <img src="img/Divine-Shop-Nang-Cap-Auto-29098.jpg" class="img-fluid rounded" style="height: 130px; width: 310px;">
+                        <div class="card-title">
+                            <a href="">Nâng cấp AutoCAD (1 năm)</a>
+                        </div>
+                        <div class="card-title">
+                            <h5 style="display: inline">390.000đ</h5>
+                            <h5 class="crossed-out" style="display: inline">43.800.000đ</h5>
+                            <font style="border: 1px solid red; background-color: red; color: white;">-99%</font>
                         </div>
                     </div>
                 </div>
@@ -1310,22 +1309,22 @@
                 <br>
                 <hr>
                 <br>
-                <div class="row">
+                <div class="row mx-3" >
                     <div class="col">
-                        <h5>Giới thiệu</h5>
+                        <h6>GIỚI THIỆU</h6>
                         <a href="#" style="color: black;">Game bản quyền là gì?</a><br>
                         <a href="#" style="color: black;">Giới thiệu Divine Shop</a><br>
                         <a href="#" style="color: black;">Điều khoản dịch vụ</a><br>
                         <a href="#" style="color: black;">Chính sách bảo mật</a><br>
                     </div>
                     <div class="col">
-                        <h5>TÀI KHOẢN</h5>
+                        <h6>TÀI KHOẢN</h6>
                         <a href="#" style="color: black;">Giỏ hàng</a><br>
                         <a href="#" style="color: black;">Sản phẩm đã mua</a><br>
                         <a href="#" style="color: black;">Chế độ bảo hành</a><br>
                     </div>
                     <div class="col">
-                        <h5>LIÊN HỆ</h5>
+                        <h6>LIÊN HỆ</h6>
                         <font>Hotline tự động <a href="#" style="color: red;">1900 633 305</a></font><br>
                         <a href="#" style="color: black;">Liên hệ Hỗ trợ</a><br>
                         <a href="#" style="color: black;">Chat với CSKH</a><br>
