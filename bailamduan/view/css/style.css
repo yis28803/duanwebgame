@@ -1,0 +1,51 @@
+.crossed-out {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.enlarge-btn {
+    background: red;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval-border {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.small-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.medium-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.rounded-circle {
+    width: 50px; /* Điều chỉnh kích thước theo ý muốn */
+    height: 50px; /* Điều chỉnh kích thước theo ý muốn, đảm bảo là chiều rộng và chiều cao giống nhau */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white; /* Đổi màu sắc và kích thước border tùy ý */
+    border-radius: 50%; /* Tạo hình tròn */
+}
+
+/* Để làm cho biểu tượng có màu và kích thước tùy ý, bạn có thể thay đổi các thuộc tính sau */
+.rounded-circle i {
+    font-size: 24px; /* Điều chỉnh kích thước biểu tượng */
+    color: white; /* Đổi màu sắc biểu tượng */
+}
+
+ 
+  
+  
+  
