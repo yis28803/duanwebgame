@@ -1,0 +1,14 @@
+.center-container {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  height: 100vh; /* Chiều cao 100% của viewport */
+}
+
+.center-image {
+  /* Đặt kích thước, lề và kiểu hiển thị của ảnh theo nhu cầu */
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* Để tránh khoảng trắng dư thừa */
+  margin: 0 auto; /* Căn giữa theo chiều ngang */
+}
